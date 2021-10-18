@@ -39,14 +39,10 @@ class Car {
     public void setColor(String userColor){
         color = userColor;
     }
-    public String getColor() {
-        return color;
-    }
+    public String getColor() {return color;}
     public void setYear (int userYear){
         year = userYear;
     }
-    public int getYear(){
-        return year;
-    }
+    public int getYear(){return Math.abs( year);}
 
 }

@@ -29,5 +29,5 @@ class Motorbike {
     public void setColor(String Color){this.color = Color;}
     public String getColor() {return color;}
     public void setYear (int Year){this.year = Year;}
-    public int getYear(){return year;}
+    public int getYear(){return Math.abs(year);}
 }
