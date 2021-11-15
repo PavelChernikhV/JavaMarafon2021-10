@@ -16,7 +16,8 @@ year = 1980, вывод должен быть таким:
  */
 public class Task4 {
     public static void main(String[] args) {
-    int year = 1976;
+        int year = 1976;
+
         while(year <=2016){
             year +=4;
             System.out.println("Олимпиада " + year + " года");
